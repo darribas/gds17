@@ -7,7 +7,7 @@
 
 * [Dani Arribas-Bel](http://darribas.org) ([@darribas](http://darribas.org))
 
-Material and website for the course Geographic Data Science'16, taught
+Material and website for the course Geographic Data Science'17, taught
 by Dani Arribas-Bel at the University of Liverpool. The course was open to
 last-year undergraduate and master students.
 
@@ -17,24 +17,6 @@ access them is through the website:
 > [http://darribas.org/gds17](http://darribas.org/gds17)
 
 **NOTE**: This course is an evolution and update of [GDS'16](http://darribas.org/gds16).
-
-## Citation
-
-[![DOI](https://zenodo.org/badge/65053914.svg)](https://zenodo.org/badge/latestdoi/65053914)
-
-If you use material from this course, I would appreciate if you used the
-following citation:
-
-```
-@online{darribas_gds15,
-  author = {Dani Arribas-Bel},
-  title = {Geographic Data Science'16},
-  year = 2017,
-  url = {http://darribas.org/gds16},
-  urldate = {2017-02-10},
-  doi = {10.5281/zenodo.290239}
-}
-```
 
 ## License
 
