@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+/* Don't allow text to get too wide */
+.container {
+    width: auto;
+    max-width: 800px;
+    padding: 0 15px;
+}
+/* Keep the footer at the bottom of the page */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#body {
+    padding-bottom: 60px;       /* Same as footer height */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+/* Overall font settings */
+#body, #footer, .container {
+    font-family: 'PT Serif', serif;
+    font-size: 12pt;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+  color: #66CDAA;
+  text-decoration: none;
+}
+
+code {
+  color: #66CDAA;
+  background-color: #f2f9f8;
+}
