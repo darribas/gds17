@@ -1,6 +1,8 @@
 _site/*
 _site/
 */_site/*
+us.tif
+*/us.tif
 */.DS_Store
 .DS_Store
 revealjs/*
