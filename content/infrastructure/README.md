@@ -4,8 +4,8 @@
 
 | <CENTER>OS</CENTER>    | | <CENTER>Status</CENTER> |
 | ------- | ----- | -----------------|
-| Linux & macOS  | | [![Build Status](https://travis-ci.org/darribas/gds16.svg?branch=master)](https://travis-ci.org/darribas/gds16) |
-| Windows |  | [![Build status](https://ci.appveyor.com/api/projects/status/nlobj16coto8k0rv?svg=true)](https://ci.appveyor.com/project/darribas/gds16) |
+| Linux & macOS  | | [![Build Status](https://travis-ci.org/darribas/gds17.svg?branch=master)](https://travis-ci.org/darribas/gds17) |
+| Windows |  | [![Build status](https://ci.appveyor.com/api/projects/status/ffyxalxow6jcs12u?svg=true)](https://ci.appveyor.com/project/darribas/gds17) |
 
 ---
 
@@ -22,7 +22,7 @@ This guide assumes you have the following additional files, available to downloa
 
 ### Anaconda
 
-The easiest way to install locally and natively the software stack required is to install a full scientific Python distribution. Although other good alternatives are also available (e.g. [Canopy](https://www.enthought.com/products/canopy/), [Sage](http://www.sagemath.org)), we recommend to install [Anaconda](https://store.continuum.io/cshop/anaconda/). Make sure, whichever option you pick, to install a **Python 2.7** version, NOT Python 3. Please follow the instructions provided in the link for installation.
+The easiest way to install locally and natively the software stack required is to install a full scientific Python distribution. Although other good alternatives are also available (e.g. [Canopy](https://www.enthought.com/products/canopy/), [Sage](http://www.sagemath.org)), we recommend to install [Anaconda](https://store.continuum.io/cshop/anaconda/). Make sure, whichever option you pick, to install a **Python 3.5** version, NOT Python 2. Please follow the instructions provided in the link for installation.
 
 Once you have a fully working Anaconda distribution installed in your computer, you can setup an isolated environment that contains all the required libraries by running the install script provided with this guide. Exact instructions vary depending on the platform you are on. 
 
@@ -99,7 +99,7 @@ The course requires the following libraries to be installed on your machine. The
 
 * [`IPython`](http://ipython.org) 
 * [`Jupyter`](https://jupyter.org)
-* [Python 2.7](https://www.python.org)
+* [Python 3.5](https://www.python.org)
 
 ---
 
@@ -119,7 +119,6 @@ The course requires the following libraries to be installed on your machine. The
 
 ---
 
-* [`clusterpy`](http://www.rise-group.org/risem/clusterpy/)
 * [`geopandas`](http://geopandas.org)
 * [`PySAL`](http://pysal.org)
 * [`rasterio`](https://pypi.python.org/pypi/rasterio/)

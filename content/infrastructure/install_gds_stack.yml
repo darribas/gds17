@@ -1,15 +1,14 @@
 # Run `conda-env create -f install_gds_stack.yml`
 name: gds
 channels:
+  - conda-forge
   - ioos
   - defaults
-  - conda-forge
 dependencies:
-  - python=2.7
+  - python=3.5
   - pip
   - bokeh
   - cartopy
-  - clusterpy
   - dask
   - geopandas
   - ipython
@@ -18,7 +17,7 @@ dependencies:
   - mplleaflet
   - networkx
   - palettable
-  - PIL
+  - pillow
   - pip:
         - contextily
   - qgrid
