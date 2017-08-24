@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(../fonts/tufte/et-book.css);
 /* Don't allow text to get too wide */
 .container {
     width: auto;
-    max-width: 800px;
+    max-width: 850px;
     padding: 0 15px;
 }
 /* Keep the footer at the bottom of the page */
@@ -25,18 +26,19 @@ html {
 
 /* Overall font settings */
 #body, #footer, .container {
-    font-family: 'PT Serif', serif;
-    font-size: 12pt;
+    font-family: 'et-book', 'PT Serif', serif;
+    font-size: 14pt;
+    line-height: 1.5;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 a {
-  color: #cc6688;
+  color: #9370db;
   text-decoration: none;
 }
 
 code {
-  color: #cc6688;
-  background-color: #FAF2F4;
+  color: #9370db;
+  background-color: #e6dff5;
 }

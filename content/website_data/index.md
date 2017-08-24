@@ -3,7 +3,7 @@
 
 ## Geographic Data Science
 
-Welcome to Geographic Data Science, a course taught by Dr. Dani Arribas-Bel in the Autumn of 2016 at the University of Liverpool.
+Welcome to Geographic Data Science, a course taught by Dr. Dani Arribas-Bel in the Autumn of 2017 at the University of Liverpool.
 
 The timetable for the course is:
 
@@ -17,15 +17,10 @@ The timetable for the course is:
 
 ### Contact
 
-Dani Arribas-Bel - `D.Arribas-Bel [at] liverpool.ac.uk`
-
-Lecturer in Geographic Data Science
-
-Office 508, Roxby Building, 
-
-University of Liverpool - 74 Bedford St S, 
-
-Liverpool, L69 7ZT, 
-
-United Kingdom.
+> Dani Arribas-Bel - `D.Arribas-Bel [at] liverpool.ac.uk`
+> Lecturer in Geographic Data Science
+> Office 508, Roxby Building, 
+> University of Liverpool - 74 Bedford St S, 
+> Liverpool, L69 7ZT, 
+> United Kingdom.
 
