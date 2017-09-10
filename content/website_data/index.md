@@ -12,15 +12,15 @@ The timetable for the course is:
 
 ### Locations
 
-* `REN-LT8`: Rendall Building, Lecture Theatre 8 [[Map](http://www.openstreetmap.org/?mlat=53.40187&mlon=-2.96573#map=18/53.40187/-2.96573)]
+* `SCTH-MR`: South Campus Teaching Hub, Lecture Theatre 8 [[Map](http://www.openstreetmap.org/?mlat=53.40187&mlon=-2.96573#map=18/53.40187/-2.96573)]
 * `ENG-HHTC`: Harrison Hughes Building (Engineering), Computer lab (top floor) [[Map](http://www.openstreetmap.org/?mlat=53.40640&mlon=-2.96744#map=18/53.40640/-2.96744)]
 
 ### Contact
 
-> Dani Arribas-Bel - `D.Arribas-Bel [at] liverpool.ac.uk`
-> Lecturer in Geographic Data Science
-> Office 508, Roxby Building, 
-> University of Liverpool - 74 Bedford St S, 
-> Liverpool, L69 7ZT, 
+> Dani Arribas-Bel - `D.Arribas-Bel [at] liverpool.ac.uk`\\
+> Lecturer in Geographic Data Science\\
+> Office 508, Roxby Building, \\
+> University of Liverpool - 74 Bedford St S, \\
+> Liverpool, L69 7ZT, \\
 > United Kingdom.
 
