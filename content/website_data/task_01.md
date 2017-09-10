@@ -4,8 +4,8 @@
 
 * Type: `Coursework`
 * [Equivalent to 2,500 words] Maps, code and 500 words.
-* Due on **Wednesday, November 9th-2016** (Week 7).
-* 47.5% of the final mark
+* Due on **Wednesday, November 8th-2017** (Week 7).
+* 40% of the final mark
 * Chance to be reassessed
 * Electronic submission only.
 

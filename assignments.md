@@ -10,6 +10,9 @@ layout: default
 {% capture criteria %}{% include_relative content/website_data/marking_criteria.md %}{% endcapture %}
 {{ criteria | markdownify }}
 
+{% capture task_forum %}{% include_relative content/website_data/task_forum.md %}{% endcapture %}
+{{ task_forum | markdownify }}
+
 {% capture task_01 %}{% include_relative content/website_data/task_01.md %}{% endcapture %}
 {{ task_01 | markdownify }}
 

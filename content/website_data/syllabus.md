@@ -37,7 +37,7 @@
 
 ##### Week 7: Clustering
 
-[**ASSIGNMENT 1**](assignments.html#task_01) due on Wednesday, November 9th-2016.
+[**ASSIGNMENT 1**](assignments.html#task_01) due on Wednesday, November 8th-2017.
 
 * Lecture: [Clustering](notes/Class_07.html).
 * Tutorial: [Geodemographic analysis](labs/Lab_06.html).
@@ -67,5 +67,5 @@
 ##### Week 12
 
 [**ASSIGNMENT 2**](assignments.html#task_02) due on Monday, December
-12th-2016.
+11th-2017.
 

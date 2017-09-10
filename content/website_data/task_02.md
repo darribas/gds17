@@ -4,10 +4,10 @@
 
 * Type: `Coursework`
 * [Equivalent to 2,500 words] Three maps/tables, code and 750 words.
-* 47.5% of the final mark
+* 55% of the final mark
 * Chance to be reassessed
 * Final Assessment
-* Due on **Monday, December 12th-2016** (Week 12).
+* Due on **Monday, December 11th-2017** (Week 12).
 * Electronic submission only.
 
 In this assignment, you will take the role of a real-world data scientist tasked to identify areas to direct investments. You are consulting for the City of Liverpool on a program to target investments towards particularly disadvantaged areas that are nevertheless popular or have the potential to become so. The Economic Development division knows that only five local super output areas (LSOAs) will be funded but would like to know which ones.
@@ -32,4 +32,5 @@ Choose one of the given questions, develop a data strategy, deploy it, and prese
 
 This assignment can use any of the [datasets]({{site.baseurl}}/datasets.html) employed in the course, and/or any other datasets you consider useful. If you are thinking of including additional datasets, or have ideas in this respect, please get in touch with the module lead ([Dani Arribas-Bel](mailto:D.Arribas-Bel@liverpool.ac.uk)).
 
+**IMPORTANT - MSc Students**: MSc students are *required* to use alternative datasets.
 
