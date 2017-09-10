@@ -4,6 +4,7 @@ channels:
   - conda-forge
   - ioos
   - defaults
+  - bokeh
 dependencies:
   - python=3.5
   - pip
@@ -14,6 +15,7 @@ dependencies:
   - ipython
   - ipywidgets
   - jupyter
+  - mkl-service
   - mplleaflet
   - networkx
   - palettable
