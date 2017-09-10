@@ -7,7 +7,7 @@ Welcome to Geographic Data Science, a course taught by Dr. Dani Arribas-Bel in t
 
 The timetable for the course is:
 
-* **Lectures**: *Tuesdays* 9:00am-10:00am, `REN-LT8`
+* **Lectures**: *Mondays* 9:00am-10:00am, `REN-LT8`
 * **Computer Labs**: *Fridays* 3:00pm-5:00pm, `ENG-HHTC`
 
 ### Locations
