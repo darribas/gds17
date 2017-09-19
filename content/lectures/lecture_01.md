@@ -121,6 +121,8 @@ solving** rather than acquiring specific programming tricks or stats wizardry
  
 - Discussion board (5%)
 
+**NOTE**: recommendation letters only for great students (**>70**)
+
 #
 
 ## The (geo-)data revolution
