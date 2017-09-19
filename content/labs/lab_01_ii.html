@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>lab_01_extra</title>
+<title>lab_01_ii</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -188,30 +188,15 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># This ensures visualizations are plotted inside the notebook</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This ensures visualizations are plotted inside the notebook</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
 
 <span class="kn">import</span> <span class="nn">os</span>              <span class="c1"># This provides several system utilities</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>    <span class="c1"># This is the workhorse of data munging in Python</span>
-<span class="kn">import</span> <span class="nn">seaborn</span> <span class="kn">as</span> <span class="nn">sns</span>  <span class="c1"># This allows us to easily and beautifully plot</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>    <span class="c1"># This is the workhorse of data munging in Python</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>  <span class="c1"># This allows us to easily and beautifully plot</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/Users/dani/anaconda/envs/gds/lib/python2.7/site-packages/matplotlib/font_manager.py:273: UserWarning: Matplotlib is building the font cache using fc-list. This may take a moment.
-  warnings.warn(&apos;Matplotlib is building the font cache using fc-list. This may take a moment.&apos;)
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -235,11 +220,11 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Important! You need to specify the path to the data in *your* machine</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Important! You need to specify the path to the data in *your* machine</span>
 <span class="c1"># If you have placed the data folder in the same directory as this notebook,</span>
 <span class="c1"># you would do:</span>
 <span class="c1"># path = &#39;Liverpool/&#39;</span>
-<span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;../../../../../../2015/geocomp/data/Liverpool/&#39;</span>
+<span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;../../../gds17_data/Liverpool/&#39;</span>
 
 <span class="c1"># Check to see if the path is correct and works. If you have set it </span>
 <span class="c1"># correctly, you should obtain the following list</span>
@@ -258,8 +243,7 @@ div#notebook {
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&apos;.DS_Store&apos;,
- &apos;datasets_description.csv&apos;,
+<pre>[&apos;datasets_description.csv&apos;,
  &apos;metadata.xml&apos;,
  &apos;readme.txt&apos;,
  &apos;shapefiles&apos;,
@@ -290,7 +274,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">lsoa_orig</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">path</span><span class="o">+</span><span class="s1">&#39;tables/QS203EW_lsoa11.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="s1">&#39;GeographyCode&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lsoa_orig</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">path</span><span class="o">+</span><span class="s1">&#39;tables/QS203EW_lsoa11.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="s1">&#39;GeographyCode&#39;</span><span class="p">)</span>
 <span class="n">lsoa_orig</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -306,6 +290,19 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -505,7 +502,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="nb">type</span><span class="p">(</span><span class="n">lsoa_orig</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="n">lsoa_orig</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -545,7 +542,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">lsoa_orig</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lsoa_orig</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -560,6 +557,19 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -759,7 +769,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">lsoa_orig</span><span class="o">.</span><span class="n">shape</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lsoa_orig</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
 </div>
@@ -798,7 +808,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">region_codes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;QS203EW0002&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0032&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0045&#39;</span><span class="p">,</span> \
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">region_codes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;QS203EW0002&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0032&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0045&#39;</span><span class="p">,</span> \
                 <span class="s1">&#39;QS203EW0063&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0072&#39;</span><span class="p">]</span>
 </pre></div>
 
@@ -822,7 +832,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Select only the columns with names in the list `region_codes`</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Select only the columns with names in the list `region_codes`</span>
 <span class="n">lsoa_orig_sub</span> <span class="o">=</span> <span class="n">lsoa_orig</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="n">region_codes</span><span class="p">]</span>
 
 <span class="n">lsoa_orig_sub</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -840,6 +850,19 @@ div#notebook {
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -931,7 +954,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">lsoa_orig_sub</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">lsoa_orig_sub</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -984,7 +1007,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Read file with variable descriptions</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Read file with variable descriptions</span>
 <span class="n">variables</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">path</span><span class="o">+</span><span class="s1">&#39;variables_description.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
@@ -998,7 +1021,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Create a &quot;dictionary&quot; to store names of the variables</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a &quot;dictionary&quot; to store names of the variables</span>
 <span class="c1"># and their description</span>
 <span class="n">code2name</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="c1"># Set the index to be the code of each variable</span>
@@ -1052,7 +1075,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Loop over every code in the `code2name` dictionary and chop off</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Loop over every code in the `code2name` dictionary and chop off</span>
 <span class="c1"># &quot;: Total&quot; so the name is shorter and neater</span>
 <span class="k">for</span> <span class="n">code</span> <span class="ow">in</span> <span class="n">code2name</span><span class="p">:</span>
     <span class="n">code2name</span><span class="p">[</span><span class="n">code</span><span class="p">]</span> <span class="o">=</span> <span class="n">code2name</span><span class="p">[</span><span class="n">code</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;: Total&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
@@ -1101,7 +1124,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Rename each column in `lsoa_orig_sub` from its code to its name</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Rename each column in `lsoa_orig_sub` from its code to its name</span>
 <span class="n">lsoa_orig_sub</span> <span class="o">=</span> <span class="n">lsoa_orig_sub</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">code2name</span><span class="p">)</span>
 
 <span class="n">lsoa_orig_sub</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -1119,6 +1142,19 @@ memory usage: 14.0+ KB
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1207,7 +1243,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># This command lists the files in the folder passed (`path` in this case)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This command lists the files in the folder passed (`path` in this case)</span>
 <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
 </pre></div>
 
@@ -1223,8 +1259,7 @@ memory usage: 14.0+ KB
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&apos;.DS_Store&apos;,
- &apos;datasets_description.csv&apos;,
+<pre>[&apos;datasets_description.csv&apos;,
  &apos;metadata.xml&apos;,
  &apos;readme.txt&apos;,
  &apos;shapefiles&apos;,
@@ -1253,7 +1288,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Create a list with the names of all the tables available</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a list with the names of all the tables available</span>
 <span class="n">csvs</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="s1">&#39;tables&#39;</span><span class="p">)</span>
 </pre></div>
 
@@ -1277,7 +1312,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Obtain the length of the list `csvs`</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Obtain the length of the list `csvs`</span>
 <span class="nb">len</span><span class="p">(</span><span class="n">csvs</span><span class="p">)</span>
 </pre></div>
 
@@ -1317,7 +1352,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Load up the file and set the first column as index</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load up the file and set the first column as index</span>
 <span class="n">codebook</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="s1">&#39;datasets_description.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
@@ -1341,7 +1376,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">codebook</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">codebook</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -1356,6 +1391,19 @@ memory usage: 14.0+ KB
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1414,7 +1462,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Extract the value for the column `DatasetTitle` and the row `QS203EW`</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Extract the value for the column `DatasetTitle` and the row `QS203EW`</span>
 <span class="c1"># This is effectively the name of the dataset with that code</span>
 <span class="n">codebook</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">&#39;QS203EW&#39;</span><span class="p">,</span> <span class="s1">&#39;DatasetTitle&#39;</span><span class="p">]</span>
 </pre></div>
@@ -1455,7 +1503,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">variables</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">path</span><span class="o">+</span><span class="s1">&#39;variables_description.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">variables</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">path</span><span class="o">+</span><span class="s1">&#39;variables_description.csv&#39;</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1478,7 +1526,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Get the dimensions of the table `variables`</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Get the dimensions of the table `variables`</span>
 <span class="n">variables</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 
@@ -1518,7 +1566,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">variables</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">variables</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -1533,6 +1581,19 @@ memory usage: 14.0+ KB
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1605,7 +1666,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Select all the column values for the row `QS203EW`</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Select all the column values for the row `QS203EW`</span>
 <span class="n">birth_orig</span> <span class="o">=</span> <span class="n">variables</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">&#39;QS203EW&#39;</span><span class="p">,</span> <span class="p">:]</span>
 
 <span class="n">birth_orig</span><span class="o">.</span><span class="n">shape</span>
@@ -1648,7 +1709,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Select all the rows for the two columns &#39;ColumnVariableCode&#39; and</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Select all the rows for the two columns &#39;ColumnVariableCode&#39; and</span>
 <span class="c1"># &#39;ColumnVariableDescription&#39;, and show the top 25</span>
 <span class="n">birth_orig</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="p">[</span><span class="s1">&#39;ColumnVariableCode&#39;</span><span class="p">,</span> <span class="s1">&#39;ColumnVariableDescription&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
 </pre></div>
@@ -1665,6 +1726,19 @@ memory usage: 14.0+ KB
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1834,7 +1908,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">region_codes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;QS203EW0002&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0032&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0045&#39;</span><span class="p">,</span> \
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">region_codes</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;QS203EW0002&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0032&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0045&#39;</span><span class="p">,</span> \
                 <span class="s1">&#39;QS203EW0063&#39;</span><span class="p">,</span> <span class="s1">&#39;QS203EW0072&#39;</span><span class="p">]</span>
 </pre></div>
 
@@ -1862,7 +1936,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">regions</span> <span class="o">=</span> <span class="p">[]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">regions</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="k">for</span> <span class="n">var</span> <span class="ow">in</span> <span class="n">birth_orig</span><span class="p">[</span><span class="s1">&#39;ColumnVariableDescription&#39;</span><span class="p">]:</span>
     <span class="c1"># Split the name of the variable in pieces by &#39;: &#39;</span>
     <span class="n">pieces</span> <span class="o">=</span> <span class="n">var</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;: &#39;</span><span class="p">)</span>
@@ -1920,7 +1994,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="s1">&#39;Europe: Total&#39;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;: &#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;Europe: Total&#39;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;: &#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1962,7 +2036,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="s1">&#39;Europe&#39;</span> <span class="o">+</span> <span class="s1">&#39;: Total&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="s1">&#39;Europe&#39;</span> <span class="o">+</span> <span class="s1">&#39;: Total&#39;</span>
 </pre></div>
 
 </div>
@@ -2004,7 +2078,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Set the column `ColumnVariableDescription` as the index and keep only those</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Set the column `ColumnVariableDescription` as the index and keep only those</span>
 <span class="c1"># in the list `regions`</span>
 <span class="n">subset</span> <span class="o">=</span> <span class="n">birth_orig</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;ColumnVariableDescription&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">reindex</span><span class="p">(</span><span class="n">regions</span><span class="p">)</span>
 
@@ -2023,6 +2097,19 @@ memory usage: 14.0+ KB
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
+<style>
+    .dataframe thead tr:only-child th {
+        text-align: right;
+    }
+
+    .dataframe thead th {
+        text-align: left;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2088,7 +2175,7 @@ memory usage: 14.0+ KB
 <div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="c1"># Convert the column `ColumnVariableCode` in the table `subset`</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Convert the column `ColumnVariableCode` in the table `subset`</span>
 <span class="c1"># into a list</span>
 <span class="n">region_codes</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">subset</span><span class="p">[</span><span class="s1">&#39;ColumnVariableCode&#39;</span><span class="p">])</span>
 
@@ -2132,7 +2219,7 @@ memory usage: 14.0+ KB
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr>
-<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'16 - Lab 1, part II</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'17 - Lab 1, part II</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
 
 </div>
 </div>
