@@ -42,9 +42,9 @@ way!*
 
 ## Logistics - Website
 
-[http://darribas.org/gds16](http://darribas.org/gds16)
+[http://darribas.org/gds17](http://darribas.org/gds17)
 
-<iframe src="http://darribas.org/gds16" width=600 height=400 ></iframe>
+<iframe src="http://darribas.org/gds17" width=600 height=400 ></iframe>
 
 ## Logistics - Format
 
@@ -85,18 +85,18 @@ way!*
 * Industry standard: **GIS** (Esri, QGIS) and **Data Science** (Google, Facebook, Amazon, Netflix, The New York Times, NASA...)
 </ul>
 
-## Self-directed learning (or *"it's all about YOU"*)
+## Self-directed learning 
 
 **Prepare** for the labs 
 
 <ul>
-<li class='fragment'> I won't be leading/lecturing at the computer labs </li>
-<li class='fragment'> Go over the notebooks between the lecture and the computer lab
+<li class='fragment'> **I won't** be leading/lecturing at the computer labs </li>
+<li class='fragment'> **Go over the notebooks** before the lecture and the computer lab
 --> If the first time you see a notebook is at the lab, you won't be able to
   follow on </li>
-<li class='fragment'> Bring questions, comments, feedback, (informed) rants to class/labs </li>
-<li class='fragment'> Use the forum (link on VITAL) </li>
-<li class='fragment'> Collaborate with your peers (it's **NOT** a zero-sum win!!!) </li>
+<li class='fragment'> **Bring** questions, comments, feedback, (informed) rants to class/labs </li>
+<li class='fragment'> Use the **forum** (link on VITAL) </li>
+<li class='fragment'> **Collaborate** (it's **NOT** a zero-sum win!!!) </li>
 </ul>
 
 ## More help!!!
@@ -113,14 +113,13 @@ solving** rather than acquiring specific programming tricks or stats wizardry
 
 ## Assignments
 
-- Mark (mostly) based on two assignments, due:
+- Mark (mostly) based on **two assignments**, due:
 
-     1. Week 7 (47.5%)
-     1. Week 12 (47.5%)
-
-- Coursework
-
-- **Equivalent** to 2,500: report (*notebook*) with **code**, **figures** (e.g. maps), and **text**
+     - Week 7 (40%), Week 12 (55%)
+     - Coursework
+     - **Equivalent** to 2,500: report (*notebook*) with **code**, **figures** (e.g. maps), and **text**
+ 
+- Discussion board (5%)
 
 #
 
@@ -138,22 +137,18 @@ The world is being **"datafied"**...
 
 ## "Datafication"
 
-<div text-align="center" markdown="1">
-*Quantification of phenomena through the systematic recording of data*
-</div>
+*Quantification of phenomena through the systematic recording of data*, *"taking all aspects of life and turning them into data"* [<small style="vertical-align: middle;">(Cukier &
+Mayer-Schoenberg)](https://www.foreignaffairs.com/articles/2013-04-03/rise-big-data)</small>
 
-*“taking all aspects of life and turning them into data”* [Cukier &
-(Mayer-Schoenberg)](https://www.foreignaffairs.com/articles/2013-04-03/rise-big-data)
-
-Examples: credit transactions, public transit, tweets, facebook likes, spotify songs, etc. 
+**Examples**: credit transactions, public transit, tweets, facebook likes, spotify songs, etc. 
 
 ## "Datafication"
 
-Many implications: 
+Many **implications**: 
 
+* **Window** into human **behaviour** (this course)
 * Opportunities for optimization of systems (Industrial IoT, planning
   systems...)
-* **Window** into human **behaviour** (this course)
 * Issues with **intentionality** and **privacy**
 * ...
 
@@ -189,10 +184,12 @@ knowledge** *
 
 ## Data Science
 
+<div style="height: 600px;" markdown="1">
+<caption><small>
 [Source](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram):
 Drew Conway
+</small></caption>
 
-<div style="height: 600px;" markdown="1">
 ![](../content/lectures/figs/l01_Data_Science_VD.png)
 </div>
 
@@ -201,17 +198,17 @@ Drew Conway
 **Statistics** + ...
 
 </ul>
-<li class='fragment'> **Computational tools** --> Programming (hence this course's tutorials!) </li>
-<li class='fragment'> **Comunication skills** --> "Story telling" (hence this course's assignments) </li>
+<li class='fragment'> **Computational tools** --> Programming (hence this course's **tutorials**!) </li>
+<li class='fragment'> **Comunication skills** --> "Story telling" (hence this course's **assignments**) </li>
 <li class='fragment'> **Domain expertise** --> Theories about why the data are the way they are (hence
-  the rest of your degree) </li>
+  the rest of your **degree**) </li>
 </ul>
 
 <span class='fragment'> Some examples... </span>
 
-## {data-background=../content/lectures/figs/l01_chocolate.png}
+## {data-background=../content/lectures/figs/l01_chocolate.png data-background-size=contain}
 
-## {data-background=../content/lectures/figs/l01_okcupid.png}
+## {data-background=../content/lectures/figs/l01_okcupid.png data-background-size=contain}
 
 #
 ## **Geo**-Data Science
@@ -224,15 +221,15 @@ Drew Conway
 
 Some examples...
 
-## {data-background=../content/lectures/figs/l01_airbnb.png}
+## {data-background=../content/lectures/figs/l01_airbnb.png data-background-size=contain}
 
-## {data-background=../content/lectures/figs/l01_uber.png}
+## {data-background=../content/lectures/figs/l01_uber.png data-background-size=contain}
 
-## {data-background=../content/lectures/figs/l01_gmaps.png}
+## {data-background=../content/lectures/figs/l01_gmaps.png data-background-size=contain}
 
-## {data-background=../content/lectures/figs/l01_jsnow.jpg}
+## {data-background=../content/lectures/figs/l01_jsnow.jpg data-background-size=contain}
 
 #
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'15 - Lecture 1</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'17 - Lecture 1</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 

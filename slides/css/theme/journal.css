@@ -1,8 +1,9 @@
 /**
  * A simple theme for reveal.js presentations, similar to serif
- * matching GDS'16 style
+ * matching GDS'17 style
  */
 @import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(../../../assets/fonts/tufte/et-book.css);
 body {
   width: 87.5%;
   margin-left: auto;
@@ -11,7 +12,7 @@ body {
   counter-reset: sidenote-counter; }
 
 code {
-  color: #66CDAA;
+  color: #9370db;
   background-color: #f2f9f8; }
 
 .reveal a {
@@ -33,9 +34,10 @@ body {
   background-color: #ffffff; }
 
 .reveal {
-  font-family: "PT Serif", serif;
-  font-size: 40px;
+  font-family: 'et-book', "PT Serif", serif;
+  font-size: 45px;
   font-weight: normal;
+  line-height: 1.00;
   color: #666666; }
 
 ::selection {
@@ -59,7 +61,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #444444;
-  font-family: "PT Serif", serif;
+  font-family: 'et-book', "PT Serif", serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -223,7 +225,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #66CDAA;
+  color: #9370db;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -258,7 +260,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #66CDAA;
+  border-color: #9370db;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -266,19 +268,19 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #66CDAA; }
+  border-right-color: #9370db; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #66CDAA; }
+  border-left-color: #9370db; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #66CDAA; }
+  border-bottom-color: #9370db; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #66CDAA; }
+  border-top-color: #9370db; }
 
 .reveal .controls .navigate-left.enabled:hover {
   border-right-color: #b3e6d5; }
@@ -299,7 +301,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #66CDAA;
+  background: #9370db;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
