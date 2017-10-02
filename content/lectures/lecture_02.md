@@ -16,8 +16,7 @@
 
 - Traditional data: refresher
 - New sources of spatial data
-- Challenges
-- (Cool) examples
+- Opportunities & Challenges
 
 # 
 
@@ -67,9 +66,18 @@ Tied into the (geo-)data revolution, new sources are appearing that are:
   **detailed** in both space and time
 * Quality also varies greatly
 
-## New sources of (spatial) data
+Different ways to categorise them...
 
-We can split them at three levels, based on how they originate:
+## Lazer & Radford (2017)
+
+* Digital Life: digital actions (Twitter, Facebook, WikiPedia...)
+* Digital traces: record of digital actions (CDRs, metadata...)
+* Digitalised life: nonintrinsically digital life in digital form (Government
+  records, web...)
+
+## Arribas-Bel (2014)
+
+Three levels, based on how they originate:
 
 * **[Bottom up]** "Citizens as sensors"
 * **[Intermediate]** Digital businesses/businesses going digital
@@ -94,11 +102,11 @@ We can split them at three levels, based on how they originate:
 ## Businesses moving online
 
 * Many of the elements and parts of bussiness activities have been
-  computerized in the last decades
+  **computerized** in the last decades
 * This implies, without any change in the final product or activity per se, a
   lot more digital data is "available" about their operations
 * In addition, enirely new business activities have been created based on the
-  new technologies ("internet natives")
+  new technologies (**"internet natives"**)
 * Much of these data can help researchers better understand how cities work
 
 ## Example: [Walkscore](https://www.walkscore.com/)
@@ -145,7 +153,17 @@ In pairs, 2 minutes to discuss the origin of the following sources of
 * Liverpool bikeshare service station status <span class="fragment"> --> Open Government Data </span>
 
 #
-## Challenges
+## Opportunities & Challenges
+
+## Opportunities
+
+From Lazer & Radford (2017):
+
+* Massive, passive 
+* Nowcasting
+* Data on social systems
+* Natural and field experiments ("always-on" observatory of human behaviour)
+* Making big data small
 
 ## Challenges
 
@@ -155,13 +173,10 @@ In pairs, 2 minutes to discuss the origin of the following sources of
 
 ## Bias
 
-* Traditionally, data used by urban researchers meets some quality standards (representativity, accuracy...)
-* The *accidental* nature means new data sources will not always meet such
-  standards 
-* This implies researchers need to have extra care and put more thought into
-  what conclusions they can reach from analyses with new sources of data
-* In some cases, bias can even run in favour of researchers, but this should
-  never be taken for granted
+* Traditional data meet some quality standards (representativity, accuracy...)
+* Because they're *accidental*, new data sources might not
+* Researchers need to have extra care and put more thought into what conclusions they can reach from analyses with new sources of data
+* In some cases, bias can run in favour of researchers, but this should never be taken for granted
 
 ## Technical barriers to access
 
@@ -206,27 +221,6 @@ Examples:
 
 But also others like bayesian inference, network science...
 
-## Methods - Visualization
-
-* Display of graphical summaries
-* Arguably, not new to Geography, but more emphasis should be put on it
-* Powerful to both *obtain* (explore the data) and *communicate* findings
-  (tell stories with data)
-
-Example: [Public Transit in Boston](http://mbtaviz.github.io/)
-
-## Methods - Machine learning
-
-* Originated in computer science, blended with statistics
-* Focus on prediction and pattern recognition
-* Two main types of learning:
-
-    * **Supervised**: present the computer some true relationships to "learn" a
-      model, then use the model to infer others where no prediction is
-      available (e.g. [Google flu trends](http://www.google.org/flutrends/))
-    * **Unsupervised**: "let the data speak"... and the machine pick up the
-      structure (e.g. [Livehoods](http://livehoods.org))
-
 #
 ## New **+** Old
 
@@ -241,17 +235,6 @@ Example: [Public Transit in Boston](http://mbtaviz.github.io/)
 * Less reliable, harder to access, and potentially uninteresting
 
 <span class='fragment'> --> 1 + 1 > 2 </span>
-
-## Avoid the [streetlight effect](https://en.wikipedia.org/wiki/Streetlight_effect)
-
-
-<center>
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*X59CVJB_MOJTouxMkBiHSQ.jpeg" alt="Streetlight effect" style="width:400px;height:400;">
-</center>
-
-<center>
-[[source](https://d262ilb51hltx0.cloudfront.net/max/800/1*X59CVJB_MOJTouxMkBiHSQ.jpeg)]
-</center>
 
 #
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'15 - Lecture 1</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
