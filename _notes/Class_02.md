@@ -19,6 +19,7 @@ Some examples of new data sources and how they are being applied:
 * The part of the lecture on new sources of data relies on {% cite ArribasBel201445 %}.
 * {% cite goodchild2007citizens %}: a classic on the rise of volunteered geographic information.
 * {% cite kitchin2014data %}: recent book on the data revolution from a Social Science/Human geography perspective.
+* {% cite lazer2017data %}: recent paper contextualizing the rise of new forms of data and the potential they hold for Social Sciences.
 
 ### References
 
