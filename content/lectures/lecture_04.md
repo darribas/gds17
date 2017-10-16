@@ -35,7 +35,7 @@ Before we delve into different types of data maps...
 ## MAUP
 
 ##
-**M**odifiable **A**real **U**nit **P**roblem
+**M**odifiable **A**real **U**nit **P**roblem <span class='fragment'>(Openshaw, 1984)</span>
 
 ##
 
@@ -94,7 +94,8 @@ style="width:300px;height:300px;"/>
 * Underlying process (e.g. individuals, firms, shops)
 * Unit of measurement (e.g. neighborhoods, regions, etc.)
 
-In some cases, it can **seriously mislead** analysis on aggregated data
+In some cases, it can **seriously mislead** analysis on aggregated data (e.g.
+[Flint, MI!!!](http://theconversation.com/how-zip-codes-nearly-masked-the-lead-problem-in-flint-65626))
 
 <span class="fragment">Always keep **MAUP** in mind when exploring aggregated data!!!
 
@@ -143,7 +144,7 @@ style="width:300px;height:50px;vertical-align:middle;border:0px;" class="fragmen
 * Graduated, **divergent** [<img src="../content/lectures/figs/l04_pal_div.png" alt="Divergent"
 style="width:300px;height:50px;vertical-align:middle;border:0px;" class="fragment"/>](https://jiffyclub.github.io/palettable/colorbrewer/diverging/#rdylgn_5)
 
-## {data-background=../content/lectures/figs/l04_colorbrewer.png}
+## {data-background=../content/lectures/figs/l04_colorbrewer.png data-background-size=contain}
 
 [[Source](http://colorbrewer2.org/)]
 
@@ -258,15 +259,17 @@ create a map for each *bucket*
 </div>
 
 
+<!--
 ## {data-background-iframe="http://cartodb.github.io/torque/examples/navy_leaflet.html"}
 
 [[Source](http://cartodb.github.io/torque/examples/navy_leaflet.html)]
+-->
 
 ## {data-background-iframe="https://d9a.cartodb.com/viz/fe9751f0-6ced-11e4-98f3-0e9d821ea90d/embed_map"}
 
 [[Source](https://cartodb.com/case-studies/la-metro-movement/)]
 
 #
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'16 - Lecture 4</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'17 - Lecture 4</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 
