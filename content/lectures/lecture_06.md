@@ -179,19 +179,16 @@ Portions of a map where values are correlated in a particularly strong and
 specific way
 
 <span class="fragment">
-**[High-High]** Positive sp. autocorr. of *high* values (*hotspots*)
+**[High-High]** + SA of *high* values (*hotspots*)
 
 <span class="fragment">
-**[Low-Low]** Positive sp. autocorr. of *low* values (*coldspots*)
+**[Low-Low]** + SA of *low* values (*coldspots*)
 
 <span class="fragment">
-**[High-Low]** Negative sp. autocorr. (*spatial outliers*)
+**[High-Low]** - SA (*spatial outliers*)
 
 <span class="fragment">
-**[Low-High]** Negative sp. autocorr. (*spatial outliers*)
-
-<span class="fragment">
-How to measure it???
+**[Low-High]** - SA (*spatial outliers*)
 
 ## LISAs
 
@@ -231,6 +228,6 @@ Main function: characterize **spatial autocorrelation**, which
 * **Local**ly (e.g. LISAs)
 
 #
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'16 - Lecture 6</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'17 - Lecture 6</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 
