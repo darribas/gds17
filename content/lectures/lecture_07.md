@@ -27,17 +27,15 @@ Albert Einstein
 
 ## The need to group data
 
-* The world (and its problems) are **complex** and **multidimensional**
-* **Univariate** analysis involves focusing **only one** way of measure
-  the world
+* The world is **complex** and **multidimensional**
+* **Univariate** analysis focuses on **only one** dimension
+* Sometimes, world issues are best understood as **multivariate**. E.g.
 
-<div class="fragment">
-* Sometimes, world issues are best understood as **multivariate**:
-
-    * Percentage of foreign-born Vs. *What is a neighborhood?*
-    * Years of schooling Vs. *Human development*
-    * Monthly income Vs. *Deprivation*
-</div>
+<ul class="fragment">
+* Percentage of foreign-born Vs. *What is a neighborhood?*
+* Years of schooling Vs. *Human development*
+* Monthly income Vs. *Deprivation*
+</ul>
 
 ## *Grouping* as *simplifying*
 
@@ -57,11 +55,11 @@ Albert Einstein
 * Originated in the **Public** Sector (policy) and spread to the
   **Private** sector (marketing and business intelligence)
 
-## {data-background=../content/lectures/figs/l08_la.jpg}
+## {data-background=../content/lectures/figs/l08_la.jpg data-transition=none}
 
-[Source](gizmodo.com/uncovering-the-early-history-of-big-data-in-1974-los-an-1712551686)
+[Source](http://gizmodo.com/uncovering-the-early-history-of-big-data-in-1974-los-an-1712551686)
 
-## {data-background=../content/lectures/figs/l08_oac.png}
+## {data-background=../content/lectures/figs/l08_oac.png data-transition=none}
 
 [Source](http://maps.cdrc.ac.uk)
 
@@ -83,15 +81,15 @@ and **dissimilar between** groups, based on a series of **attributes**
 
 **Machine learning**
 
-<div class="fragment">
-* The computer *learns* some of the properties of the dataset without the
+<div class="fragment current-visible">
+  The computer *learns* some of the properties of the dataset without the
   human specifying them
 </div>
 
 **Unsupervised**
 
-<div class="fragment">
-* There is no a-priori structure imposed on the classification $\rightarrow$
+<div class="fragment current-visible">
+  There is no a-priori structure imposed on the classification $\rightarrow$
   before the analysis, no observations is in a category
 </div>
 
@@ -130,7 +128,7 @@ See [interesting comparison](http://scikit-learn.org/stable/modules/clustering.h
 ## Regionalization
 ## 
 
-<span class="fragment">**Spatial**</span> Machine Learning
+Unsupervised <span class="fragment">**Spatial**</span> Machine Learning
 
 <span class="fragment">
 *Aggregating basic spatial units (**areas**) **into** larger units (**regions**)*
@@ -144,8 +142,9 @@ and **dissimilar between** groups, based on a series of
 <span class="fragment"> ...with the additional constraint observations need to be
 **spatial neighbors**</span>
 
-## Regionalization
+## Regionalization {data-transition=none}
 
+<SMALL>
 <ul>
 <li class="fragment current-visible"> All the methods aggregate geographical areas into a predefined number of regions, while optimizing a particular aggregation criterion; </li>
 <li class="fragment current-visible"> The areas within a region must be geographically connected (the spatial contiguity constraint); </li>
@@ -153,18 +152,23 @@ and **dissimilar between** groups, based on a series of
 <li class="fragment current-visible"> Each area must be assigned to one and only one region; </li>
 <li class="fragment current-visible"> Each region must contain at least one area. </li>
 </ul>
+</SMALL>
 
 <div style="text-align:right">
 [Duque et al. (2007)](http://irx.sagepub.com/content/30/3/195)
 </div>
 
-## Regionalization
+## Regionalization {data-transition=none}
 
-* All the methods aggregate geographical areas into a predefined number of regions, while optimizing a particular aggregation criterion;
-* The areas within a region must be geographically connected (the spatial contiguity constraint); 
-* The number of regions must be smaller than or equal to the number of areas; 
-* Each area must be assigned to one and only one region;
-* Each region must contain at least one area. 
+<SMALL>
+<ul>
+<li> All the methods aggregate geographical areas into a predefined number of regions, while optimizing a particular aggregation criterion;</li>
+<li> The areas within a region must be geographically connected (the spatial contiguity constraint); </li>
+<li> The number of regions must be smaller than or equal to the number of areas; </li>
+<li> Each area must be assigned to one and only one region;</li>
+<li> Each region must contain at least one area. </li>
+</ul>
+</SMALL>
 
 <div style="text-align:right">
 [Duque et al. (2007)](http://irx.sagepub.com/content/30/3/195)
@@ -185,18 +189,14 @@ excellent, though advanced, overview
 #
 ## Examples
 
-## Census geographies
+## Census geographies {data-transition=none}
 
 <center>
 <img src="../content/lectures/figs/l08_census.png" alt="Choropleth"
 style="width:800px;height:350px;"/>
 </center>
 
-## {data-background=../content/lectures/figs/l01_airbnb.png}
-
-[AirBnb neighborhoods](https://www.airbnb.co.uk/locations)
-
-## {data-background=../content/lectures/figs/l08_livehoods.png}
+## {data-background=../content/lectures/figs/l08_livehoods.png data-transition=none}
 
 [Livehoods](http://www.livehoods.org/)
 
@@ -213,6 +213,6 @@ style="width:800px;height:350px;"/>
 
 
 #
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'16 - Lecture 7</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'17 - Lecture 7</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 
