@@ -27,6 +27,14 @@ code {
   text-align: center; }
 
 /*********************************************
+ * BESPOKE CLASSES
+ *********************************************/
+
+.hlg {
+    background-color: #FFFF00
+}
+
+/*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
@@ -232,7 +240,7 @@ body {
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #b3e6d5;
+  color: #9370db;
   text-shadow: none;
   border: none; }
 
@@ -283,16 +291,16 @@ body {
   border-top-color: #9370db; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #b3e6d5; }
+  border-right-color: #9370db; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #b3e6d5; }
+  border-left-color: #9370db; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #b3e6d5; }
+  border-bottom-color: #9370db; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #b3e6d5; }
+  border-top-color: #9370db; }
 
 /*********************************************
  * PROGRESS BAR
