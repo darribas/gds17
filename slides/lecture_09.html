@@ -68,15 +68,6 @@
 <section id="correlation-vs-causation" class="level2">
 <h2>Correlation Vs Causation</h2>
 </section>
-<section id="section-2" class="level2">
-<h2></h2>
-<center>
-<em>&quot;Association breeds similarity&quot;</em> (sometimes)
-</center>
-<center>
-<small> Nasir bin Olu Dara Jones (a.k.a. <em>Nas</em>) </small>
-</center>
-</section>
 <section id="correlation-vs-causation-1" class="level2">
 <h2>Correlation Vs Causation</h2>
 <p>Two fundamental ways to look at the relationship between two (or more) variables:</p>
@@ -105,10 +96,10 @@
 <li>Temperature and ice-cream consumption <span class="fragment"> <span class="math inline">→</span> <strong>Positive</strong>. <strong>Positive</strong>.</li>
 <li>Non-commercial space launches &amp; Sociology PhDs awarded</li>
 <li>Crime &amp; policing</li>
-<li>IMD Moran Plot in Liverpool</li>
+<li>IMD in an area Vs its neighbors (Liverpool)</li>
 </ul>
 </section>
-<section id="section-3" class="level2" data-background="../content/lectures/figs/l10_spurius.svg">
+<section id="section-2" class="level2" data-background="../content/lectures/figs/l10_spurius.svg">
 <h2></h2>
 <p>[<a href="http://tylervigen.com/spurious-correlations">Source</a>]</p>
 </section>
@@ -119,11 +110,11 @@
 <ul>
 <li>Temperature and ice-cream consumption <span class="math inline">→</span> <strong>Positive</strong>. <strong>Positive</strong>.</li>
 <li>Non-commercial space launches &amp; Sociology PhDs awarded <span class="math inline">→</span> <strong>Positive</strong>. <strong>None</strong>.</li>
-<li>Crime &amp; policing <span class="fragment"> <span class="math inline">→</span> <strong>Positive</strong>. <strong>Negative</strong>.</li>
-<li>IMD Moran Plot in Liverpool</li>
+<li>Crime &amp; policing <span class="fragment"> <span class="math inline">→</span> <strong>Positive</strong>. <strong>Negative</strong>.</span></li>
+<li>IMD in an area Vs its neighbors (Liverpool)</li>
 </ul>
 </section>
-<section id="section-4" class="level2" data-background="../content/lectures/figs/l05_moranplot_std.png">
+<section id="section-3" class="level2" data-background="../content/lectures/figs/l05_moranplot_std.png">
 <h2></h2>
 </section>
 <section id="examples-2" class="level2">
@@ -134,16 +125,16 @@
 <li>Temperature and ice-cream consumption <span class="math inline">→</span> <strong>Positive</strong>. <strong>Positive</strong>.</li>
 <li>Non-commercial space launches &amp; Sociology PhDs awarded <span class="math inline">→</span> <strong>Positive</strong>. <strong>None</strong>.</li>
 <li>Crime &amp; policing <span class="math inline">→</span> <strong>Positive</strong>. <strong>Negative</strong>.</li>
-<li>IMD Moran Plot in Liverpool <span class="math inline">→</span> <strong>Positive</strong>. <strong>?</strong></li>
+<li>IMD in an area Vs its neighbors (Liverpool) <span class="math inline">→</span> <strong>Positive</strong>. <strong>?</strong></li>
 </ul>
 </section>
 </section>
-<section id="section-5" class="level1">
+<section id="section-4" class="level1">
 <h1></h1>
 <section id="causal-inference" class="level2">
-<h2>Causal inference</h2>
+<h2>Causal Inference</h2>
 </section>
-<section id="section-6" class="level2">
+<section id="section-5" class="level2">
 <h2></h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JA5s-Uh6q8s" frameborder="0" allowfullscreen>
 </iframe>
@@ -152,10 +143,10 @@
 </center>
 </section>
 </section>
-<section id="section-7" class="level1">
+<section id="section-6" class="level1">
 <h1></h1>
-<section id="whywhen-get-causal" class="level2">
-<h2><em>Why/When get causal?</em></h2>
+<section id="whywhen-to-get-causal" class="level2">
+<h2><em>Why/When to get Causal?</em></h2>
 </section>
 <section id="why" class="level2">
 <h2>Why</h2>
@@ -177,29 +168,27 @@
 </ul>
 </section>
 <section id="when-not-necessarily" class="level2">
-<h2>When not (necessarily)</h2>
+<h2>When Not (necessarily)</h2>
 <div class="fragment">
 <p><strong><code>Exploratory analysis</code></strong></p>
-<p>When you are not sure what you are after, inferring causality might be too high of a price to pay to get a sense of the main relationships</p>
+<p>Distracting if not enough knowledge about the dataset</p>
 </div>
 <div class="fragment">
 <p><strong><code>Predictive settings</code></strong></p>
-<p><strong>Interest</strong> not in understanding the underlying mechanisms but want to obtain <strong>best possible estimates</strong> of a variable you do not have by combining others you do have</p>
-<p><small> E.g. Population density in a specific point using population density in all available nearby locations </small></p>
+<p><strong>Interest</strong> not in understanding the underlying mechanisms but want to obtain <strong>best possible estimates</strong> of a variable you do not have by combining others you do have <small style='vertical-align:middle;'> (e.g. Kriging) </small></p>
 </div>
 </section>
 </section>
-<section id="section-8" class="level1">
+<section id="section-7" class="level1">
 <h1></h1>
 <section id="hurdles-to-causal-inference" class="level2">
-<h2>Hurdles to causal inference</h2>
+<h2>Hurdles to Causal Inference</h2>
 </section>
 <section id="hurdles-to-causal-inference-1" class="level2">
 <h2>Hurdles to causal inference</h2>
 <p>Causation <em>implies</em> Correlation</p>
 <p>Correlation <em>does <strong>not</strong> imply</em> Causation</p>
-<p><em>Why?</em><img class='fragment' src="../content/lectures/figs/l05_moranplot_std.png" alt=""
-style="width:175px;height:175px;border:0px;" /></p>
+<p><em>Why?</em></p>
 <div class="fragment">
 <ul>
 <li>Reverse causality</li>
@@ -208,71 +197,61 @@ style="width:175px;height:175px;border:0px;" /></p>
 </div>
 </section>
 <section id="reverse-causality" class="level2">
-<h2>Reverse causality</h2>
+<h2>Reverse Causality</h2>
 <p>There <em>is</em> a causal link between the two variables but it either runs the oposite direction as we think, or runs in both</p>
 <div class="fragment">
 <p>E.g. Education and income</p>
 </div>
 </section>
 <section id="confounding-factors" class="level2">
-<h2>Confounding factors</h2>
+<h2>Confounding Factors</h2>
 <p>Two variables are correlated because they are <em>both</em> determined by other, unobserved, variables (factors) that <em>confound</em> the effect</p>
 <div class="fragment">
 <p>E.g. Ice cream and cold beverages consumption</p>
 </div>
 </section>
 </section>
-<section id="section-9" class="level1">
+<section id="section-8" class="level1">
 <h1></h1>
 <section id="strategies" class="level2">
 <h2>Strategies</h2>
 </section>
-<section id="section-10" class="level2">
+<section id="section-9" class="level2">
 <h2></h2>
 <p><em>Is there any way to overcome reverse causality and confounding factors to recover causal effects?</em></p>
-<p><span class='fragment'> The key is to get an <em>exogenous source of variation</em></p>
+<p><span class='fragment'> The key is to get an <strong>&quot;<em>exogenous source of variation</em>&quot;</strong></p>
 </section>
 <section id="strategies-1" class="level2">
 <h2>Strategies</h2>
 <div class="fragment">
 <p><strong><code>Randomized Control Trials</code></strong></p>
-<p><em>Treated</em> and <em>control</em> groups</p>
-<p>Probability of treatment is independent of everything else</p>
+<p><small> <em>Treated</em> Vs <em>control</em> groups. Probability of treatment is independent of everything else </small></p>
 </div>
 <div class="fragment">
 <p><strong><code>Quasi-natural experiments</code></strong></p>
-<p>Like a RCT, but that just <em>&quot;happen to occur naturally&quot;</em> (natural dissasters, exogenous law changes...)</p>
+<p><small> Like a RCT, but that just <em>&quot;happen to occur <strong>naturally</strong>&quot;</em> (natural dissasters, exogenous law changes...) </small></p>
 </div>
 <div class="fragment">
 <p><strong><code>Econometric techniques</code></strong></p>
-<p>For the interested reader: space-time regression, instrumental variables, propensity score matching, differences-in-differences, regression discontinuity...</p>
-</div>
-</section>
-<section id="so-why-correlation-at-all" class="level2">
-<h2>So, why correlation at all?</h2>
-<div class="fragment">
-<p>Establishing <strong>causality is much harder</strong> than identifying correlation, and sometimes it is just not possible with a given dataset (e.g. many observational surveys).</p>
-</div>
-<div class="fragment">
-<p>... correlation most often <em>precludes</em> causation and, depending on the application/analysis, it is all that is needed.</p>
-</div>
-<div class="fragment">
-<p>It is important to always draw <strong>conclusions based on analysis</strong>, know what the data can and cannot tell, and stay <strong>honest</strong>.</p>
+<p><small> For the interested reader: space-time regression, instrumental variables, propensity score matching, differences-in-differences, regression discontinuity... </small></p>
 </div>
 </section>
 </section>
-<section id="section-11" class="level1">
+<section id="section-10" class="level1">
 <h1></h1>
-<section id="recapitulation" class="level2">
-<h2>Recapitulation</h2>
-<ul>
-<li>Correlation does <strong>NOT</strong> imply causation</li>
-<li>Causality implies more than correlation, a direct <strong>effect channel</strong> that is <strong>harder</strong> to identify but might be <strong>worthwhile</strong></li>
-<li>There are several techniques to identify causality, all usually based on obtaining <strong>exogenous sources of variation</strong></li>
-<li>You don't always need causality</li>
-</ul>
+<section id="correlation-or-causation" class="level2">
+<h2>Correlation <em>or</em> Causation?</h2>
+<div class="fragment">
+<p>Establishing <strong>causality is much harder</strong> than identifying correlation, <span class="fragment"> but sometimes it's needed to move forward!</p>
+</div>
+<div class="fragment">
+<p>Correlation <em>precludes</em> causation and, in some cases, it is all that is needed.</p>
+</div>
+<div class="fragment">
+<p>It is <strong>important</strong> to always draw <em>conclusions based on analysis</em>, know what the data can and cannot tell, and stay <strong>honest</strong>.</p>
+</div>
 </section>
-<section id="section-12" class="level2">
+<section id="section-11" class="level2">
 <h2></h2>
 <center>
 <img src="../content/lectures/figs/l10_xkcd.png" alt=""
@@ -283,9 +262,9 @@ style="width:800px;height:400px;"/>
 </center>
 </section>
 </section>
-<section id="section-13" class="level1">
+<section id="section-12" class="level1">
 <h1></h1>
-<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'16 - Lecture 9</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'17 - Lecture 9</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
 </section>
 </div>
  
