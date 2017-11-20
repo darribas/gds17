@@ -21,7 +21,7 @@ Choose one of the given questions, develop a data strategy, deploy it, and prese
 * Justify why you have chosen the methods you use and how they help you answer the question at hand. Critically discuss their limitations too.
 * Provide a list of the top five areas that you recommend be funded for improvement.
 * Explain clearly how you have arrived at the list and how the decision has been informed by the data analysis and the methodologies employed.
-* Include documented code and data that allow the replication of the analysis presented.
+* Include documented code that demonstrate programming understanding of the student.
 
 **Suggestive paths** (optional)
 
