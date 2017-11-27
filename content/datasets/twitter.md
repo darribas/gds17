@@ -27,8 +27,8 @@ following information:
 
 **Instructions**: given the Twitter license that applies to the data, this
 dataset cannot be redistributed publicly online. For that reason, it has been
-uploaded to the VITAL page of the course. You can find it on the following
-location:
+uploaded to the VITAL page of the course. You can find it instructions on
+access and download on VITAL:
 
 > VITAL ENVS3/563 --> Learning Resources --> Twitter dataset
 
