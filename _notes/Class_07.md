@@ -9,15 +9,12 @@ title: Week 7 - Clustering
 
 ### To do before class
 
-* Talk on "Geodemographics and the Internal Structure of Cities" by Prof. Alex
-  Singleton ([link](https://www.youtube.com/watch?v=lslLujtqGlw) to 50min. video).
+* Talk on "Geodemographics and the Internal Structure of Cities" by Prof. Alex Singleton ([link](https://www.youtube.com/watch?v=lslLujtqGlw) to 50min. video).
 
 ### Related readings
 
-* Chapter 7 in {% cite brunsdon2015geocomputation %}: *Geodemographic
-  Analysis*, by Alexandros Alexiou and Alex Singleton.
-* {% cite duque2007supervised %} is an excellent review of regionalization
-  algorthims, but it is an advanced read.
+* Chapter 7 in {% cite brunsdon2015geocomputation %}: *Geodemographic Analysis*, by Alexandros Alexiou and Alex Singleton.
+* {% cite duque2007supervised %} is an excellent review of regionalization algorthims, but it is an advanced read.
 
 ### References
 
