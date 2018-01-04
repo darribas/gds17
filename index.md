@@ -11,25 +11,23 @@ layout: default
 
 A pdf copy of the module handbook can be downloaded [here](content/handbook/handbook.pdf).
 
-<!--
 ### Citation
 
-[![DOI](https://zenodo.org/badge/65053914.svg)](https://zenodo.org/badge/latestdoi/65053914)
+[![DOI](https://zenodo.org/badge/100046460.svg)](https://zenodo.org/badge/latestdoi/100046460)
 
 If you use material from this course, I would appreciate if you used the
 following citation:
 
 ```
-@online{darribas_gds15,
+@online{darribas_gds17,
   author = {Dani Arribas-Bel},
-  title = {Geographic Data Science'16},
-  year = 2017,
-  url = {http://darribas.org/gds16},
-  urldate = {2017-02-10},
-  doi = {10.5281/zenodo.290239}
+  title = {Geographic Data Science'17},
+  year = 2018,
+  url = {http://darribas.org/gds17},
+  urldate = {2018-01-04},
+  doi = {10.5281/zenodo.1135210}
 }
 ```
--->
 
 ### License
 
