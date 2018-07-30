@@ -31,13 +31,13 @@ following citation:
 
 ### Code repository
 
+<a rel="repo" href="https://github.com/darribas/gds17"><img alt="@darribas/gds17" style="border-width:0" src="GitHub-Mark.png" /></a>
+
 This website, as well as the entire set of materials, code, and data included
 in this course are available as an open Github repository available at:
 
 
 > [https://github.com/darribas/gds17](https://github.com/darribas/gds17)
-
-<a rel="repo" href="https://github.com/darribas/gds17"><img alt="@darribas/gds17" style="border-width:0" src="GitHub-Mark-120px-plus.png" /></a>
 
 ### License
 
