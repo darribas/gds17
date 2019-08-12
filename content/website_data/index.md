@@ -3,6 +3,15 @@
 
 ## Geographic Data Science
 
+---
+
+**`IMPORTANT`**: this is the repository for the 2017 version of the GDS course.
+A more recent (and recommended) one is available at:
+
+> [darribas.org/gds18](https://darribas.org/gds18)
+
+---
+
 Welcome to Geographic Data Science, a course taught by Dr. Dani Arribas-Bel in the Autumn of 2017 at the University of Liverpool.
 
 The timetable for the course is:
