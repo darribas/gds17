@@ -1,0 +1,17 @@
+{
+  "@context": "https://raw.githubusercontent.com/codemeta/codemeta/master/codemeta.jsonld",
+  "@type": "Code",
+  "author": [
+
+  ],
+  "identifier": "10.5281/zenodo.1135210",
+  "codeRepository": "https://github.com/darribas/gds17",
+  "datePublished": "2018-08-06",
+  "dateModified": "2018-08-06",
+  "dateCreated": "2018-08-06",
+  "description": "A course on Geographic Data Science",
+  "keywords": "Geographic Data Science, GIS, Data Science, geopandas, pysal",
+  "license": "CC-BY",
+  "title": "Geographic Data Science",
+  "version": "1.0"
+}

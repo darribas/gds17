@@ -7,7 +7,7 @@
   <meta name="author" content="Dani Arribas-Bel">
   <meta name="description" content="An introduction to Geographic Data Science">
 
-  <title>GDS17 &mdash; pylj: A teaching tool for classical atomistic simulation</title>
+  <title>GDS17 &mdash; A course on Geographic Data Science</title>
 
   <link href="/gds17/assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="/gds17/assets/css/course-site-custom.css" rel="stylesheet">
@@ -125,33 +125,57 @@
   <div class="container" id="body">
     <h1 id="summary">Summary</h1>
 
-<p>pylj is an educational software to introduce students to classical atomistic simulation using a Lennnard-Jones potential model [@LENNARD-JONES]. pylj is written in Python (using Cython for pairwise interactions) and uses Jupyter notebooks [@KLUYVER] and Matplotlib [@HUNTER] for visualisation (see example below). It can be easily deployed in a computer laboratory, and students interact with it without needing to use the command line, as would be the case for other molecular dynamics packages like Gromacs[@GROMACS], LAMMPS [@LAMMPS], or DLPOLY [@DLPOLY]. We provide example notebooks in the repository, showing how to use pylj to simulate a 2D gas system using either molecular dynamics or Monte-Carlo methods. A variety of other applications are possible.</p>
+<p>This paper presents a computational learning module on Geographic Data
+Science (GDS). This resource is part of a larger set, that also includes a series of
+lecture slides, that has been used for three conscutive academic years to
+teach the course “Geographic Data Science” at the University of Liverpool.</p>
 
-<p>The latest release of the software can be installed via pip, or from source at https://github.com/arm61/pylj. Full documentation can be found at https://pylj.readthedocs.io.</p>
+<h1 id="statement-of-need">Statement of need</h1>
 
-<h1 id="statement-of-need">Statement of Need</h1>
+<p>This module is needed because both the contents are relevant, and the
+available set of options to teach them leaves clear gaps. A large proportion
+of the data society generates nowadays, from smartphone GPS logs to credit card
+transactions to web activity, is directly or indirecly geographic. This means
+that every observation can be associated with a particular set of map coordinates,
+analysed spatially, and acted upon taking into account the implications of its
+spatial location. This approach can bring a new set of perspectives to several
+questions.
+At the 
+same time, traditional resources for teaching the handling, visualisation, and
+analysis of geographic data are based on a paradigm that emphasises graphical
+interfaces and “point-and-click” software packages. This approach is entirely
+valid but, in many contexts, it limits the flexiblity with which the analyst
+can effectively move from data to insights.</p>
 
-<p>As computational science becomes more and more important in the training of undergraduate chemistry and physics students, there is a larger need for easy to use, open-source, sustainable tools that enable student interaction with classical atomistic simulation. pylj offers a simple library of functions from which students can build their own molecular dynamics or Monte-Carlo simulation and easy visualisation, leveraging Matplotlib and the Jupyter notebook framework. As well as using pylj to introduce students to classical atomistic simulation itself, this software can also be used to discuss material properties showing how they may be probed using simulation. pylj enables easy student interaction with commonplace simulation methods in a fast and open-source way, while offering educators tools to build custom visualisation environments allowing attention to be drawn to areas of specific focus for a given application.</p>
+<h1 id="learning-objectives">Learning objectives</h1>
 
-<h1 id="usage">Usage</h1>
+<p>This module has been designed so, upon completion, students are able to:</p>
 
-<p>pylj can be applied in teaching through a variety of methods including lectures or small group tutorials. However, we believe that the most common use of pylj will be in a teaching laboratory setting; with this in mind, we suggest two main areas that could make use of pylj:</p>
+<ul>
+  <li>Demonstrate advanced GDS concepts and be able to use the tools
+programmatically to import, manipulate and analyse spatial data in
+different formats.</li>
+  <li>Understand the motivation and inner workings of the main methodological 
+approcahes of GDS, both analytical and visual.</li>
+  <li>Critically evaluate the suitability of a specific technique, what it can
+offer and how it can help answer questions of interest.</li>
+  <li>Apply a number of spatial analysis techniques in Python and explain how
+to interpret the results, in a process of turning data into information.</li>
+  <li>When faced with a new data-set, work independently using GDS tools
+programmatically to extract valuable insight.</li>
+</ul>
 
-<ol>
-  <li>teaching about simulation algorithms, the mechanics of simulation, and allowing students to build a simulation themselves,</li>
-  <li>showing how simulation can be used to study physical attributes of chemical systems, consolidating learning typically introduced during lectures.</li>
-</ol>
+<h1 id="content">Content</h1>
 
-<p>Some examples of these can be found in the <a href="https://github.com/arm61/pylj/tree/master/examples">examples</a> directory, in particular the <a href="https://github.com/arm61/pylj/tree/master/examples/molecular_dynamics">molecular dynamics</a> and <a href="https://github.com/arm61/pylj/tree/master/examples/monte_carlo">Monte-Carlo</a> examples show how pylj may be used in the teaching of molecular simulations, while the <a href="https://github.com/arm61/pylj/tree/master/examples/ideal_gas_law">ideal gas law</a> notebook is exemplary of how pylj can be used to present, in an interactive fashion, the deviation from the ideal gas law that is observed following the gas-to-liquid transition. We envision that pylj is applicable to be used at all levels of undergraduate and postgraduate chemistry and physics course, particularly in computational chemistry and statistical mechanics courses.</p>
+<p>The module is structured along</p>
 
-<p><img src="fig1.png" alt="" />
-<em>Figure 1. An example of the Interactions sampling class during a molecular dynamics simulation [@FIGURE1].</em></p>
+<h1 id="instructional-design">Instructional design</h1>
 
-<h1 id="acknowledgements">Acknowledgements</h1>
+<h1 id="experience-of-use">Experience of use</h1>
 
-<p>A.R.M. is grateful to the university of Bath and Diamond
-Light Source for co-funding a studentship (Studentship Number
-STU0149). B.J.M. acknowledges support from the Royal Society (Grant No. UF130329).</p>
+<h2 id="envs3563"><code class="highlighter-rouge">ENVS3/563</code></h2>
+
+<h2 id="as-building-block">As building block</h2>
 
 <h1 id="references">References</h1>
 
