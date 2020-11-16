@@ -2,10 +2,15 @@
 
 ---
 
-**`IMPORTANT`**: this is the repository for the 2017 version of the GDS course.
-A more recent (and recommended) one is available at:
+:warning::warning::warning: **IMPORTANT** :warning::warning::warning:
 
-> [https://github.com/darribas/gds18](https://github.com/darribas/gds18)
+This is the version of the course delivered in 2019 and it is currently archived. A superseeding version of this course is available at:
+
+> [https://darribas.org/gds_course](https://darribas.org/gds_course)
+
+Development can be followed at:
+
+> [https://github.com/darribas/gds_course](https://github.com/darribas/gds_course)
 
 ---
 
